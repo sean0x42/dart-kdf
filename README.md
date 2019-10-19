@@ -1,7 +1,7 @@
 
-<center>
+<div align="center">
   <h1>Kauri Document Format</h1>
-</center>
+</div>
 
 > **Warning:** KDF is still in the experimental stages, and may change suddenly and without notice at any time.
 
