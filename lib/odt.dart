@@ -9,7 +9,7 @@ import 'package:kdf/src/document.dart';
 /// ```
 /// odt2kdf('~/Documents/Document.odt')
 /// ```
-Future<Document> odt2kdf(String path) async {
+Future<Document> parseODT(String path) async {
   // Read the archive from disk
   List<int> bytes = File(path).readAsBytesSync();
 
