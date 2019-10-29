@@ -22,4 +22,4 @@ by some amount of whitespace.
 ]
 ```
 
-The paragraph element does not have any special attributes.
+The paragraph element has no special attributes.
