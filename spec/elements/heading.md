@@ -9,9 +9,7 @@ a combination of all three.
 {
   "type": "Heading",
   "level": 1,
-  "children": [
-    { "type": "Text", "content": "" }
-  ]
+  "children": ["The Dangers of Reimagining an Ancient Industry"]
 }
 ```
 
