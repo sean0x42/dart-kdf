@@ -1,6 +1,7 @@
 import 'dart:io';
 
 import 'package:archive/archive_io.dart';
+import 'package:xml/xml.dart' as xml;
 
 import 'package:kdf/src/document.dart';
 
@@ -16,9 +17,15 @@ Future<Document> parseODT(String path) async {
   // Decode zip
   Archive archive = ZipDecoder().decodeBytes(bytes);
 
+  // Find content.xml and parse
   ArchiveFile archivedContent = archive.findFile('content.xml');
-  String xmlContent = String.fromCharCodes(archivedContent.content);
-  print(xmlContent);
+  var document = xml.parse(String.fromCharCodes(archivedContent.content));
+  print(document.toXmlString(pretty: true, indent: '  '));
+
+  // Encode with gzip and print
+  List<int> compressed = gzip.encode(archivedContent.content);
+  print("\nGzipped:");
+  print(String.fromCharCodes(compressed));
 
   return Document();
 }
