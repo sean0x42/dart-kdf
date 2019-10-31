@@ -1,5 +1,12 @@
 # Elements
 
+An element is a special type of node, which has the following additional
+attributes:
+
+ * `children`
+ * `styles`
+
+
 ## Text Node Shorthand
 
 Throughout this specification, you may see the following notation:
