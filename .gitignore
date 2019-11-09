@@ -1,3 +1,5 @@
+*.aot
+*.aot.dill
 
 # Created by https://www.gitignore.io/api/vim,dart,linux,macos,windows,sublimetext,visualstudiocode
 # Edit at https://www.gitignore.io/?templates=vim,dart,linux,macos,windows,sublimetext,visualstudiocode
