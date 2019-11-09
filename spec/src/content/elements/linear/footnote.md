@@ -12,9 +12,7 @@ within the main content.
     " by Grady Kuhnline, titled Length Unit Conversion in JavaScript",
     {
       "type": "Footnote",
-      "children": [
-        "https://2012.heygrady.com/blog/2011/12/21/length-and-angle-unit-conversion-in-javascript/"
-      ]
+      "children": ["https://mnmlurl.ml/#unit-conversion"]
     },
     "."
   ]
