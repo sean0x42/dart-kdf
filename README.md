@@ -1,9 +1,10 @@
 <div align="center">
-  <h1>Kauri Document Format</h1>
+  <h1>Kauri Document Format (KDF)</h1>
 </div>
 
 > **Warning:** KDF is still in the experimental stages, and may change suddenly
-> and without notice at any time.
+> and without notice at any time. It's name is also likely to change in the
+> near future.
 
 KDF is an open source, JSON based document format. It aims to break conventions
 that have formed within existing document formats, and encourage iterative
