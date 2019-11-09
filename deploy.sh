@@ -1,4 +1,4 @@
-yum install -y wget glib*
+yum install -y wget glibc*
 
 wget https://github.com/rust-lang/mdBook/releases/download/v0.3.4/mdbook-v0.3.4-x86_64-unknown-linux-gnu.tar.gz
 
