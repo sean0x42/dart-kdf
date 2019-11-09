@@ -1,0 +1,11 @@
+{
+  "name": "kdf",
+  "version": 2,
+  "builds": [
+    {
+      "src": "deploy.sh",
+      "use": "@now/static-build",
+      "config": { "distDir": "spec/book" }
+    }
+  ]
+}
