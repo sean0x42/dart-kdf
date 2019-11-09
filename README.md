@@ -1,19 +1,12 @@
 <div align="center">
-  <h1>Kauri Document Format (KDF)</h1>
+  <h1>Dart KDF</h1>
 </div>
 
 > **Warning:** KDF is still in the experimental stages, and may change suddenly
-> and without notice at any time. It's name is also likely to change in the
-> near future.
+> and without notice at any time.
 
-KDF is an open source, JSON based document format. It aims to break conventions
-that have formed within existing document formats, and encourage iterative
-improvement to its design over time with migrations.
+This repository contains a Dart library and command line tool for parsing and
+converting KDF documents.
 
-This repository contains everything you need to get started with KDF:
-
- * A technical specification.
- * Tools for converting and updating KDF documents
-   * Command line tool
-   * Dart library
-   * JavaScript library
+KDF is an open source, JSON based document format. You can learn more about it
+at the [KDF spec repository](https://github.com/sean0x42/kdf).
