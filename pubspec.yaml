@@ -1,8 +1,12 @@
 name: kdf
-description: A tool for managing KDF files.
-homepage: https://kauri.seanbailey.io
 version: 0.1.0
-author: Sean Bailey <sean@seanbailey.io>
+description: >-
+  Dart KDF is command line application and Dart library for parsing and
+  converting KDF documents.
+repository: https://github.com/sean0x42/dart_kdf
+homepage: https://kdf.now.sh
+executables:
+  kdf: main
 
 environment:
   sdk: '>=2.5.0 <3.0.0'
