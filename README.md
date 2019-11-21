@@ -22,6 +22,13 @@ at the [KDF spec repository][3].
 [3]: https://github.com/sean0x42/kdf
 
 
-## Usage
+## Installation
 
 Coming soon!
+
+
+## Export to PDF
+
+```sh
+kdf2pdf path/to/document.kdf output/path/document.pdf
+```

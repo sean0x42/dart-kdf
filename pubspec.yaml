@@ -6,15 +6,15 @@ description: >-
 repository: https://github.com/sean0x42/dart_kdf
 homepage: https://kdf.now.sh
 executables:
-  kdf: main
+  kdf2pdf:
 
 environment:
   sdk: '>=2.5.0 <3.0.0'
 
 dependencies:
-  archive: ^2.0.10
   args: ^1.5.2
-  xml: ^3.5.0
+  ansicolor: ^1.0.2
+  logging: ^0.11.3+2
 
 dev_dependencies:
   pedantic: ^1.8.0
